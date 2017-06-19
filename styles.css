@@ -1,17 +1,71 @@
-h1 {
+/* To Do:
+
+- change fonts for <p> and header elements.
+- change header dimensions
+- change <main> dimensions
+- change footer dimensions
+- add some borders
+- get some color involved
+- center images
+- center headings
+
+*/
+
+img {
+    display: block;
+    margin: auto;
+}
+
+h1, h2 {
+    font-family: arial;
     text-align: center;
-    background-color: aliceblue;
+}
+
+p {
+    font-family: helvetica;
+    line-height: 1.1rem;
     margin: 2rem;
+}
+
+html {
+    background-color: black;
+}
+
+main {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background-color: white;
+    width: 90%;
+    margin: auto;
+}
+
+nav {
+    text-align: center;
+    font-size: 90%;
+    margin: 3rem 3rem 3rem 3rem;
+}
+
+article {
+    width: 90%;
+    margin: 3rem;
+}
+
+div {
+    margin: 3rem;
+    border-style: solid;
     padding: 2rem;
 }
 
-p  {
-    margin: 2rem;
-    padding: 2rem;
-    border-radius: 2rem;
-    background-color: aliceblue;
-    box-shadow: 1rem 1rem 2rem;
+footer {
+    background-color: white;
+    width: 90%;
+    margin: auto;
 }
-body  {
-    background-color: bisque;
+
+header, main, footer {
+    border-radius: 1rem 1rem;
 }
