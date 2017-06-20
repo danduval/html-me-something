@@ -11,6 +11,8 @@
 
 */
 
+
+
 img {
     display: block;
     margin: auto;
@@ -18,7 +20,7 @@ img {
 }
 
 h1, h2 {
-    font-family: arial;
+    font-family: "Courier New", Courier, monospace;
     text-align: center;
 }
 
@@ -72,4 +74,8 @@ footer {
 
 header, main, footer {
     border-radius: 1rem 1rem;
+}
+#title  {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 300%;
 }
